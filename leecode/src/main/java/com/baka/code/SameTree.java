@@ -21,7 +21,7 @@ package com.baka.code;
  * @ProjectName: design
  * @Package: com.baka.code
  * @ClassName: SameTree
- * @Description: java类作用描述
+ * @Description: g给定2个二叉树，检查它是否一样
  * @Author: 唐朝
  * @CreateDate: 2019/1/15 18:52
  * @UpdateUser: 更新者
