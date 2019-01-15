@@ -35,10 +35,12 @@ public class Sqrtx {
         if (x==0){
             return x;
         }
-        double x0=x;
-        while (x0*x0>x){
+        double r=0;
+        double x0=1;
+        while (r!=x0){
+            r=x0;
             x0=(x0+x/x0)/2;
         }
-        return (int) x0;
+        return (int) r;
     }
 }
