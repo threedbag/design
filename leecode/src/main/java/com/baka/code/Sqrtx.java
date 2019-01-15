@@ -31,6 +31,11 @@ package com.baka.code;
  * @Version: 1.0
  */
 public class Sqrtx {
+    /**
+     *  牛顿迭代法
+     * @param x
+     * @return
+     */
     public int mySqrt(int x) {
         if (x==0){
             return x;
